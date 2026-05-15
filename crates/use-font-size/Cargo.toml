@@ -1,0 +1,17 @@
+[package]
+name = "use-font-size"
+description = "Primitive font-size helpers"
+publish = true
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+documentation = "https://docs.rs/use-font-size"
+keywords = ["typography", "font", "size", "rem", "em"]
+categories = ["algorithms", "science"]
+
+[lints]
+workspace = true

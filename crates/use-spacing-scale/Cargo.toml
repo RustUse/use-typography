@@ -1,0 +1,17 @@
+[package]
+name = "use-spacing-scale"
+description = "Primitive spacing-scale helpers"
+publish = true
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+documentation = "https://docs.rs/use-spacing-scale"
+keywords = ["typography", "spacing", "scale", "layout"]
+categories = ["algorithms", "science"]
+
+[lints]
+workspace = true

@@ -1,0 +1,17 @@
+[package]
+name = "use-line-height"
+description = "Primitive line-height helpers"
+publish = true
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+documentation = "https://docs.rs/use-line-height"
+keywords = ["typography", "line-height", "text", "layout"]
+categories = ["algorithms", "science"]
+
+[lints]
+workspace = true

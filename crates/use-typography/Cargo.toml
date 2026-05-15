@@ -1,0 +1,27 @@
+[package]
+name = "use-typography"
+description = "Composable facade crate for RustUse typography primitives"
+publish = true
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+documentation = "https://docs.rs/use-typography"
+keywords = ["typography", "font", "layout", "text", "scale"]
+categories = ["algorithms", "science"]
+
+[dependencies]
+use-font-size.workspace = true
+use-line-height.workspace = true
+use-measure.workspace = true
+use-modular-scale.workspace = true
+use-spacing-scale.workspace = true
+use-text-block.workspace = true
+use-type-rhythm.workspace = true
+use-type-unit.workspace = true
+
+[lints]
+workspace = true

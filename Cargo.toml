@@ -1,0 +1,38 @@
+[workspace]
+members = [
+    "crates/use-typography",
+    "crates/use-font-size",
+    "crates/use-line-height",
+    "crates/use-measure",
+    "crates/use-modular-scale",
+    "crates/use-spacing-scale",
+    "crates/use-text-block",
+    "crates/use-type-unit",
+    "crates/use-type-rhythm",
+]
+resolver = "2"
+
+[workspace.package]
+authors = ["RustUse Contributors"]
+edition = "2024"
+homepage = "https://rustuse.org"
+license = "MIT OR Apache-2.0"
+publish = false
+readme = "README.md"
+repository = "https://github.com/RustUse/use-typography"
+rust-version = "1.95.0"
+version = "0.0.1"
+
+[workspace.dependencies]
+use-font-size = { version = "0.0.1", path = "crates/use-font-size" }
+use-line-height = { version = "0.0.1", path = "crates/use-line-height" }
+use-measure = { version = "0.0.1", path = "crates/use-measure" }
+use-modular-scale = { version = "0.0.1", path = "crates/use-modular-scale" }
+use-spacing-scale = { version = "0.0.1", path = "crates/use-spacing-scale" }
+use-text-block = { version = "0.0.1", path = "crates/use-text-block" }
+use-type-rhythm = { version = "0.0.1", path = "crates/use-type-rhythm" }
+use-type-unit = { version = "0.0.1", path = "crates/use-type-unit" }
+use-typography = { version = "0.0.1", path = "crates/use-typography" }
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
