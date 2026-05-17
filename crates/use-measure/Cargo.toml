@@ -1,5 +1,5 @@
 [package]
-name = "use-measure"
+name = "use-typography-measure"
 description = "Primitive readable-measure helpers"
 publish = true
 authors.workspace = true
@@ -9,9 +9,12 @@ homepage.workspace = true
 license.workspace = true
 repository.workspace = true
 rust-version.workspace = true
-documentation = "https://docs.rs/use-measure"
+documentation = "https://docs.rs/use-typography-measure"
 keywords = ["typography", "measure", "readability", "text"]
 categories = ["algorithms", "science"]
+
+[lib]
+name = "use_measure"
 
 [lints]
 workspace = true

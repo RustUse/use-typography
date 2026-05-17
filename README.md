@@ -26,7 +26,7 @@ libraries.
 - `use-typography`: thin facade crate that reexports the full typography workspace
 - `use-font-size`: font-size and `px`/`rem`/`em` conversion helpers
 - `use-line-height`: line-height ratio and readability helpers
-- `use-measure`: readable line-length helpers
+- `use-typography-measure`: readable line-length helpers, exposed in code as `use_measure`
 - `use-modular-scale`: modular typography scale helpers
 - `use-spacing-scale`: spacing scale generation helpers
 - `use-text-block`: text block line-count and height estimation helpers

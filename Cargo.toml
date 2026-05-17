@@ -26,7 +26,7 @@ version = "0.0.1"
 [workspace.dependencies]
 use-font-size = { version = "0.0.1", path = "crates/use-font-size" }
 use-line-height = { version = "0.0.1", path = "crates/use-line-height" }
-use-measure = { version = "0.0.1", path = "crates/use-measure" }
+use-measure = { version = "0.0.1", path = "crates/use-measure", package = "use-typography-measure" }
 use-modular-scale = { version = "0.0.1", path = "crates/use-modular-scale" }
 use-spacing-scale = { version = "0.0.1", path = "crates/use-spacing-scale" }
 use-text-block = { version = "0.0.1", path = "crates/use-text-block" }

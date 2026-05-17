@@ -11,10 +11,6 @@ name = "use-line-height"
 version = "0.0.1"
 
 [[package]]
-name = "use-measure"
-version = "0.0.1"
-
-[[package]]
 name = "use-modular-scale"
 version = "0.0.1"
 
@@ -40,10 +36,14 @@ version = "0.0.1"
 dependencies = [
  "use-font-size",
  "use-line-height",
- "use-measure",
  "use-modular-scale",
  "use-spacing-scale",
  "use-text-block",
  "use-type-rhythm",
  "use-type-unit",
+ "use-typography-measure",
 ]
+
+[[package]]
+name = "use-typography-measure"
+version = "0.0.1"
