@@ -21,7 +21,7 @@ jobs:
         use-font-size use-line-height use-typography-measure use-modular-scale use-spacing-scale use-text-block use-type-unit use-type-rhythm
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Install stable Rust toolchain
         uses: actions-rust-lang/setup-rust-toolchain@v1
