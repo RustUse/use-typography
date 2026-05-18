@@ -20,33 +20,33 @@
 
 pub use use_font_size;
 pub use use_font_size::{
-    em_to_px as font_size_em_to_px, px_to_em, px_to_rem, rem_to_px as font_size_rem_to_px,
-    FontSize, FontSizeError,
+    FontSize, FontSizeError, em_to_px as font_size_em_to_px, px_to_em, px_to_rem,
+    rem_to_px as font_size_rem_to_px,
 };
 pub use use_line_height;
 pub use use_line_height::{
-    is_readable_line_height, line_height_px, line_height_ratio, LineHeight, LineHeightError,
+    LineHeight, LineHeightError, is_readable_line_height, line_height_px, line_height_ratio,
 };
 pub use use_measure;
 pub use use_measure::{
-    characters_per_line, container_width_for_measure, is_readable_measure, Measure, MeasureError,
+    Measure, MeasureError, characters_per_line, container_width_for_measure, is_readable_measure,
 };
 pub use use_modular_scale;
-pub use use_modular_scale::{modular_scale, scale_down, scale_up, ModularScaleError, ScaleRatio};
+pub use use_modular_scale::{ModularScaleError, ScaleRatio, modular_scale, scale_down, scale_up};
 pub use use_spacing_scale;
-pub use use_spacing_scale::{spacing_step, spacing_steps, SpacingScale, SpacingScaleError};
+pub use use_spacing_scale::{SpacingScale, SpacingScaleError, spacing_step, spacing_steps};
 pub use use_text_block;
-pub use use_text_block::{estimated_line_count, estimated_text_height, TextBlock, TextBlockError};
+pub use use_text_block::{TextBlock, TextBlockError, estimated_line_count, estimated_text_height};
 pub use use_type_rhythm;
-pub use use_type_rhythm::{baseline_grid, snap_to_baseline, TypeRhythm, TypeRhythmError};
+pub use use_type_rhythm::{TypeRhythm, TypeRhythmError, baseline_grid, snap_to_baseline};
 pub use use_type_unit;
-pub use use_type_unit::{em_to_px, pt_to_px, px_to_pt, rem_to_px, TypeUnit, TypeUnitError};
+pub use use_type_unit::{TypeUnit, TypeUnitError, em_to_px, pt_to_px, px_to_pt, rem_to_px};
 
 #[cfg(test)]
 mod tests {
     use super::{
-        baseline_grid, modular_scale, FontSize, LineHeight, ScaleRatio, TextBlock, TypeRhythm,
-        TypeUnit,
+        FontSize, LineHeight, ScaleRatio, TextBlock, TypeRhythm, TypeUnit, baseline_grid,
+        modular_scale,
     };
 
     #[test]

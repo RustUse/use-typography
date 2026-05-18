@@ -103,7 +103,7 @@ pub fn modular_scale(
 
 #[cfg(test)]
 mod tests {
-    use super::{modular_scale, scale_down, scale_up, ModularScaleError, ScaleRatio};
+    use super::{ModularScaleError, ScaleRatio, modular_scale, scale_down, scale_up};
 
     #[test]
     fn generates_modular_scale_values() {

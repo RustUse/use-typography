@@ -94,8 +94,8 @@ pub fn is_readable_measure(characters_per_line: f64) -> Result<bool, MeasureErro
 #[cfg(test)]
 mod tests {
     use super::{
-        characters_per_line, container_width_for_measure, is_readable_measure, Measure,
-        MeasureError,
+        Measure, MeasureError, characters_per_line, container_width_for_measure,
+        is_readable_measure,
     };
 
     #[test]

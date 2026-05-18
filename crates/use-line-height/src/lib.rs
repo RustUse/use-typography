@@ -80,7 +80,7 @@ pub fn is_readable_line_height(ratio: f64) -> Result<bool, LineHeightError> {
 #[cfg(test)]
 mod tests {
     use super::{
-        is_readable_line_height, line_height_px, line_height_ratio, LineHeight, LineHeightError,
+        LineHeight, LineHeightError, is_readable_line_height, line_height_px, line_height_ratio,
     };
 
     #[test]

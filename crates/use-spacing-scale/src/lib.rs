@@ -94,7 +94,7 @@ pub fn spacing_steps(
 
 #[cfg(test)]
 mod tests {
-    use super::{spacing_step, spacing_steps, SpacingScale, SpacingScaleError};
+    use super::{SpacingScale, SpacingScaleError, spacing_step, spacing_steps};
 
     #[test]
     fn generates_spacing_scale_values() {

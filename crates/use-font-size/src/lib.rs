@@ -82,7 +82,7 @@ pub fn em_to_px(em: f64, parent_px: f64) -> Result<f64, FontSizeError> {
 
 #[cfg(test)]
 mod tests {
-    use super::{em_to_px, px_to_em, px_to_rem, rem_to_px, FontSize, FontSizeError};
+    use super::{FontSize, FontSizeError, em_to_px, px_to_em, px_to_rem, rem_to_px};
 
     #[test]
     fn converts_between_px_rem_and_em() {

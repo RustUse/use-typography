@@ -1,0 +1,81 @@
+[workspace]
+release = false
+release_always = false
+changelog_update = false
+pr_labels = ["release"]
+max_analyze_commits = 2000
+
+[[package]]
+name = "use-font-size"
+release = true
+version_group = "rustuse-typography"
+
+[[package]]
+name = "use-line-height"
+release = true
+version_group = "rustuse-typography"
+
+[[package]]
+name = "use-typography-measure"
+release = true
+version_group = "rustuse-typography"
+
+[[package]]
+name = "use-modular-scale"
+release = true
+version_group = "rustuse-typography"
+
+[[package]]
+name = "use-spacing-scale"
+release = true
+version_group = "rustuse-typography"
+
+[[package]]
+name = "use-text-block"
+release = true
+version_group = "rustuse-typography"
+
+[[package]]
+name = "use-type-unit"
+release = true
+version_group = "rustuse-typography"
+
+[[package]]
+name = "use-type-rhythm"
+release = true
+version_group = "rustuse-typography"
+
+[[package]]
+name = "use-typography"
+release = true
+version_group = "rustuse-typography"
+changelog_update = true
+changelog_path = "./CHANGELOG.md"
+changelog_include = [
+  "use-font-size",
+  "use-line-height",
+  "use-typography-measure",
+  "use-modular-scale",
+  "use-spacing-scale",
+  "use-text-block",
+  "use-type-unit",
+  "use-type-rhythm",
+]
+
+[changelog]
+header = """# Changelog
+
+## Unreleased
+"""
+protect_breaking_commits = true
+sort_commits = "oldest"
+commit_parsers = [
+  { message = "^feat(?:\\([^)]+\\))?!?: .+", group = "Added" },
+  { message = "^fix(?:\\([^)]+\\))?!?: .+", group = "Fixed" },
+  { message = "^security(?:\\([^)]+\\))?!?: .+", group = "Security" },
+  { message = "^(?:refactor|perf|change)(?:\\([^)]+\\))?!?: .+", group = "Changed" },
+  { message = "^docs(?:\\([^)]+\\))?!?: .+", group = "Documentation" },
+  { message = "^(?:build|ci|chore|deps|test)(?:\\([^)]+\\))?!?: .+", group = "Tooling" },
+  { footer = "^changelog: ?ignore$", skip = true },
+  { message = "^.*", group = "Changed" },
+]
