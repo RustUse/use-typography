@@ -4,35 +4,35 @@ version = 4
 
 [[package]]
 name = "use-font-size"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-line-height"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-modular-scale"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-spacing-scale"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-text-block"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-type-rhythm"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-type-unit"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "use-typography"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
  "use-font-size",
  "use-line-height",
@@ -46,4 +46,4 @@ dependencies = [
 
 [[package]]
 name = "use-typography-measure"
-version = "0.0.1"
+version = "0.0.2"
