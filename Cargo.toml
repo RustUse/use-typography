@@ -21,18 +21,18 @@ publish = false
 readme = "README.md"
 repository = "https://github.com/RustUse/use-typography"
 rust-version = "1.95.0"
-version = "0.0.1"
+version = "0.0.2"
 
 [workspace.dependencies]
-use-font-size = { version = "0.0.1", path = "crates/use-font-size" }
-use-line-height = { version = "0.0.1", path = "crates/use-line-height" }
-use-measure = { version = "0.0.1", path = "crates/use-measure", package = "use-typography-measure" }
-use-modular-scale = { version = "0.0.1", path = "crates/use-modular-scale" }
-use-spacing-scale = { version = "0.0.1", path = "crates/use-spacing-scale" }
-use-text-block = { version = "0.0.1", path = "crates/use-text-block" }
-use-type-rhythm = { version = "0.0.1", path = "crates/use-type-rhythm" }
-use-type-unit = { version = "0.0.1", path = "crates/use-type-unit" }
-use-typography = { version = "0.0.1", path = "crates/use-typography" }
+use-font-size = { version = "0.0.2", path = "crates/use-font-size" }
+use-line-height = { version = "0.0.2", path = "crates/use-line-height" }
+use-measure = { version = "0.0.2", path = "crates/use-measure", package = "use-typography-measure" }
+use-modular-scale = { version = "0.0.2", path = "crates/use-modular-scale" }
+use-spacing-scale = { version = "0.0.2", path = "crates/use-spacing-scale" }
+use-text-block = { version = "0.0.2", path = "crates/use-text-block" }
+use-type-rhythm = { version = "0.0.2", path = "crates/use-type-rhythm" }
+use-type-unit = { version = "0.0.2", path = "crates/use-type-unit" }
+use-typography = { version = "0.0.2", path = "crates/use-typography" }
 
 [workspace.lints.rust]
 unsafe_code = "forbid"
